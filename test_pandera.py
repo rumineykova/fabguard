@@ -63,7 +63,7 @@ The function below can check the following simple constraint:
 - population > 0
 - location_type shouldhave one of the following values "conflict_zone", "town", "camp", "forwarding_hub
 """
-def validate_locations(df):
+def validate_locations():
     schema = pa.DataFrameSchema(
         {
             "population": Column(float, Check.greater_than(0), nullable=True),
@@ -84,7 +84,7 @@ if closures.closure_type == "location":
 where closure and locations are different input files 
 """
 def validate_multi():
-    df = util.load_file("locations.csv")
+    df = util.load_file("test_data/locations.csv")
     location_names = df["#name"]
 
     schema = pa.DataFrameSchema(
@@ -104,5 +104,7 @@ def validate_multi():
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    dfs = util.load_files(["locations.csv", "closures.csv"])
+    dfs = util.load_files(["test_data/locations.csv", "test_data/closures.csv"])
     validator.validate(validate_multi, dfs["closures"], "verify_multi.yaml")
+    validator.validate(validate_locations, dfs["locations"], "verify_multi.yaml")
+    validator.validate(validate_if_location, dfs["locations"], "verify_multi.yaml")
