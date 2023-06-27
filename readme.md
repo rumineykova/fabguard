@@ -19,9 +19,7 @@ pip install pandera
 `test_pandera.py` demonstrate how to test three type of constraints:
   - simple constarints on columns
   - constarints spanning multipple columns from the same file
-  - constarints spanning multiple files 
-   3.1
-    
+  - constarints spanning multiple files     
 5. Test it on your own dataset:
   5.1 Define a verify function that returns a pandera schema
   5.2 Call the `validator.validate` function with the above function and the data frame to be verified:
