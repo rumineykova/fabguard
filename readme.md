@@ -29,5 +29,7 @@ pip install pandera
    dfs = util.load_files(["test_data/locations.csv", "test_data/closures.csv"])
    validator.validate(validate_multi, dfs["closures"], "verify_multi.yaml")
    ```
-   where  util.loca
+   where
+   - `util.load_files` reads the list of files and returns a dictionary of dataframes
+   - `validator.validate`takes a validation function, a dataframe, and a yaml output file
 
