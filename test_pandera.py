@@ -106,5 +106,5 @@ def validate_dependencies_multiple_files():
 if __name__ == '__main__':
     dfs = util.load_files(["test_data/locations.csv", "test_data/closures.csv"])
     validator.validate(validate_dependencies_multiple_files, dfs["closures"], "verify_multi.yaml")
-    validator.validate(validate_dependencies_multiple_columns, dfs["locations"], "verify_multi.yaml")
+    validator.validate(validate_simple_constarints(), dfs["locations"], "verify_multi.yaml")
     validator.validate(validate_dependencies_multiple_columns, dfs["locations"], "verify_multi.yaml")
