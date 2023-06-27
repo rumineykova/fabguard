@@ -80,9 +80,10 @@ validator.validate(validate_simple_constraints, dfs["closures"], "verify_multi.y
 - ✓ All cities in location.csv should have routes in routes.csv (location.name should be in routes.name1 or routes.name2)
     - If locations.location_type == camp then 
         location.name in routes.name1  or location.name is routes.name2
-- the number of records in location_type is X then data_laypout file contains a linked record:
-    -   if location.location_type ==  camp:
-        - location.name in data_layout.name  
+- ✓ The number of records in location_type is X then data_laypout file contains a linked record:
+    -  if location.location_type == camp then 
+        - Location.name in data_layout.total and data_layout.name is nonempty.
+
 - All columns but one should satisfy the same constraint 
 - ✓ All data exists, min-max, All regions have positive values 
 - Check scheme (such that yaml does not break w.r.t identation)

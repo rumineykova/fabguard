@@ -28,7 +28,7 @@ The function below can check the following constraint using a lambda function:
 -if location_type == "conflict_zone":
     require population > 0
 """
-def validate_if_lambda_location():
+def validate_dependencies_multiple_columns():
     schema = pa.DataFrameSchema(
         {
             "population": pa.Column(float, [
@@ -62,10 +62,10 @@ The function below can check the following simple constraint:
 - population > 0
 - location_type shouldhave one of the following values "conflict_zone", "town", "camp", "forwarding_hub
 """
-def validate_locations():
+def validate_simple_constarints():
     schema = pa.DataFrameSchema(
         {
-            "population": Column(float, Check.greater_than(10), nullable=True),
+            "population": Column(float, Check.less_than(10), nullable=True),
             "location_type": Column(str, Check.isin(["conflict_zone", "town", "camp", "forwarding_hub"])),
         }
     )
@@ -83,7 +83,7 @@ if closures.closure == "location":
     closures.name2 in locations.names
 where closure and locations are different input files 
 """
-def validate_multi():
+def validate_dependencies_multiple_files():
     df = util.load_file("test_data/locations.csv")
     location_names = df["#name"]
 
@@ -105,6 +105,6 @@ def validate_multi():
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     dfs = util.load_files(["test_data/locations.csv", "test_data/closures.csv"])
-    #validator.validate(validate_multi, dfs["closures"], "verify_multi.yaml")
-    validator.validate(validate_locations, dfs["locations"], "verify_multi.yaml")
-    validator.validate(validate_if_location, dfs["locations"], "verify_multi.yaml")
+    validator.validate(validate_dependencies_multiple_files, dfs["closures"], "verify_multi.yaml")
+    validator.validate(validate_dependencies_multiple_columns, dfs["locations"], "verify_multi.yaml")
+    validator.validate(validate_dependencies_multiple_columns, dfs["locations"], "verify_multi.yaml")
