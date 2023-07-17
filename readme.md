@@ -1,7 +1,7 @@
 # FabGuard
 
-FabGuard is a tool that helps verify input files by specifying constraints on the data. This is a first iteration where 
-we are collecting at the type of constraints in various simulation input files and deriving the tool requirements. 
+FabGuard is a tool that helps verify input files by specifying constraints on input data. This is a first iteration where 
+we are collecting the type of constraints in various simulation input files and deriving the tool requirements. 
 As a first exercise, we are testing a library for data validation of Panda Dataframes, called [pandera](https://github.com/unionai-oss/pandera). 
 
 ## Installation
