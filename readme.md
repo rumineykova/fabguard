@@ -19,7 +19,7 @@ pip install pandera
 ## Test examples
 
 1. Test the examples in the `test_pandera.py` file to familiarise yourself with the capabilities of the library.
-`test_pandera.py` demonstrate how to test three type of constraints:
+`test_pandera.py` demonstrates how to test three type of constraints:
   - **simple constraints on columns**. 
     The function below can check the following simple constraint: 
     - *population* > 0 
