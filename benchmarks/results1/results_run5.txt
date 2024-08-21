@@ -1,0 +1,352 @@
+Folder: ssudan-mscale-test
+Elapsed Time: 0.8817169666290283 seconds
+Line Counts:
+  locations.csv: 0
+  routes.csv: 0
+  closures.csv: 0
+Total Lines: 0
+----------------------------------------
+Folder: nigeria2016_adm2
+Elapsed Time: 0.8920619487762451 seconds
+Line Counts:
+  locations.csv: 49
+  routes.csv: 64
+  closures.csv: 5
+Total Lines: 118
+----------------------------------------
+Folder: car
+Elapsed Time: 0.903235673904419 seconds
+Line Counts:
+  locations.csv: 64
+  routes.csv: 87
+  closures.csv: 3
+Total Lines: 154
+----------------------------------------
+Folder: moo_ssudan_R0_5obj
+Elapsed Time: 0.906670093536377 seconds
+Line Counts:
+  locations.csv: 40
+  routes.csv: 43
+  closures.csv: 1
+Total Lines: 84
+----------------------------------------
+Folder: syria2022_2024
+Elapsed Time: 0.9061160087585449 seconds
+Line Counts:
+  locations.csv: 35
+  routes.csv: 35
+  closures.csv: 1
+Total Lines: 71
+----------------------------------------
+Folder: mali2017_adm1
+Elapsed Time: 0.9062070846557617 seconds
+Line Counts:
+  locations.csv: 66
+  routes.csv: 86
+  closures.csv: 4
+Total Lines: 156
+----------------------------------------
+Folder: ssudan_whole
+Elapsed Time: 0.8882648944854736 seconds
+Line Counts:
+  locations.csv: 134
+  routes.csv: 172
+  closures.csv: 1
+Total Lines: 307
+----------------------------------------
+Folder: mali2022_2024
+Elapsed Time: 0.9026498794555664 seconds
+Line Counts:
+  locations.csv: 21
+  routes.csv: 21
+  closures.csv: 1
+Total Lines: 43
+----------------------------------------
+Folder: syria2013
+Elapsed Time: 0.8867552280426025 seconds
+Line Counts:
+  locations.csv: 19
+  routes.csv: 33
+  closures.csv: 1
+Total Lines: 53
+----------------------------------------
+Folder: flee_ssudan_food
+Elapsed Time: 0.9195709228515625 seconds
+Line Counts:
+  locations.csv: 52
+  routes.csv: 55
+  closures.csv: 1
+Total Lines: 108
+----------------------------------------
+Folder: syria2017_adm1
+Elapsed Time: 0.9566912651062012 seconds
+Line Counts:
+  locations.csv: 37
+  routes.csv: 58
+  closures.csv: 1
+Total Lines: 96
+----------------------------------------
+Folder: netherlands
+Elapsed Time: 0.9206767082214355 seconds
+Line Counts:
+  locations.csv: 20705
+  routes.csv: 23507
+  closures.csv: 0
+Total Lines: 44212
+----------------------------------------
+Folder: moo_ssudan_H0_5obj
+Elapsed Time: 0.9104149341583252 seconds
+Line Counts:
+  locations.csv: 40
+  routes.csv: 43
+  closures.csv: 1
+Total Lines: 84
+----------------------------------------
+Folder: moo_f1_c1_t3
+Elapsed Time: 0.8840711116790771 seconds
+Line Counts:
+  locations.csv: 6
+  routes.csv: 6
+  closures.csv: 1
+Total Lines: 13
+----------------------------------------
+Folder: ssudan_whole_revised
+Elapsed Time: 0.9074859619140625 seconds
+Line Counts:
+  locations.csv: 144
+  routes.csv: 192
+  closures.csv: 1
+Total Lines: 337
+----------------------------------------
+Folder: moo_ssudan_H10_3obj
+Elapsed Time: 0.9044952392578125 seconds
+Line Counts:
+  locations.csv: 53
+  routes.csv: 62
+  closures.csv: 4
+Total Lines: 119
+----------------------------------------
+Folder: moo_ssudan_R10_3obj
+Elapsed Time: 0.9352309703826904 seconds
+Line Counts:
+  locations.csv: 53
+  routes.csv: 62
+  closures.csv: 4
+Total Lines: 119
+----------------------------------------
+Folder: syria2013_test
+Elapsed Time: 0.8580496311187744 seconds
+Line Counts:
+  locations.csv: 19
+  routes.csv: 33
+  closures.csv: 1
+Total Lines: 53
+----------------------------------------
+Folder: mscalecity
+Elapsed Time: 0.9055469036102295 seconds
+Line Counts:
+  locations.csv: 0
+  routes.csv: 0
+  closures.csv: 0
+Total Lines: 0
+----------------------------------------
+Folder: moo_ssudan_H10_5obj
+Elapsed Time: 0.8784468173980713 seconds
+Line Counts:
+  locations.csv: 53
+  routes.csv: 62
+  closures.csv: 4
+Total Lines: 119
+----------------------------------------
+Folder: ethiopia
+Elapsed Time: 0.9031832218170166 seconds
+Line Counts:
+  locations.csv: 78
+  routes.csv: 100
+  closures.csv: 1
+Total Lines: 179
+----------------------------------------
+Folder: nigeria2016_adm1
+Elapsed Time: 0.8708200454711914 seconds
+Line Counts:
+  locations.csv: 41
+  routes.csv: 62
+  closures.csv: 1
+Total Lines: 104
+----------------------------------------
+Folder: moo_ssudan_H0_3obj
+Elapsed Time: 0.9217298030853271 seconds
+Line Counts:
+  locations.csv: 40
+  routes.csv: 43
+  closures.csv: 1
+Total Lines: 84
+----------------------------------------
+Folder: moo_f1_c3_t4
+Elapsed Time: 0.9051451683044434 seconds
+Line Counts:
+  locations.csv: 9
+  routes.csv: 13
+  closures.csv: 1
+Total Lines: 23
+----------------------------------------
+Folder: mali2017_adm2
+Elapsed Time: 0.8744792938232422 seconds
+Line Counts:
+  locations.csv: 143
+  routes.csv: 23
+  closures.csv: 3
+Total Lines: 169
+----------------------------------------
+Folder: ssudan_food
+Elapsed Time: 0.8910999298095703 seconds
+Line Counts:
+  locations.csv: 52
+  routes.csv: 55
+  closures.csv: 1
+Total Lines: 108
+----------------------------------------
+Folder: flee_ssudan_food_inverse
+Elapsed Time: 0.8960649967193604 seconds
+Line Counts:
+  locations.csv: 52
+  routes.csv: 55
+  closures.csv: 1
+Total Lines: 108
+----------------------------------------
+Folder: ssudan_whole_revised_test
+Elapsed Time: 0.9091908931732178 seconds
+Line Counts:
+  locations.csv: 144
+  routes.csv: 192
+  closures.csv: 1
+Total Lines: 337
+----------------------------------------
+Folder: mali_vis
+Elapsed Time: 0.8854281902313232 seconds
+Line Counts:
+  locations.csv: 24
+  routes.csv: 36
+  closures.csv: 3
+Total Lines: 63
+----------------------------------------
+Folder: dflee_test
+Elapsed Time: 0.8938319683074951 seconds
+Line Counts:
+  locations.csv: 10
+  routes.csv: 12
+  closures.csv: 1
+Total Lines: 23
+----------------------------------------
+Folder: syria2017_adm2
+Elapsed Time: 0.897653341293335 seconds
+Line Counts:
+  locations.csv: 0
+  routes.csv: 0
+  closures.csv: 0
+Total Lines: 0
+----------------------------------------
+Folder: moo_ssudan_R10_5obj
+Elapsed Time: 0.9335439205169678 seconds
+Line Counts:
+  locations.csv: 53
+  routes.csv: 62
+  closures.csv: 4
+Total Lines: 119
+----------------------------------------
+Folder: ssudan
+Elapsed Time: 0.9039769172668457 seconds
+Line Counts:
+  locations.csv: 52
+  routes.csv: 61
+  closures.csv: 4
+Total Lines: 117
+----------------------------------------
+Folder: flee_chris_ssudan
+Elapsed Time: 0.8941619396209717 seconds
+Line Counts:
+  locations.csv: 52
+  routes.csv: 55
+  closures.csv: 1
+Total Lines: 108
+----------------------------------------
+Folder: ssudan-mscale
+Elapsed Time: 0.925286054611206 seconds
+Line Counts:
+  locations.csv: 0
+  routes.csv: 0
+  closures.csv: 0
+Total Lines: 0
+----------------------------------------
+Folder: moo_ssudan_R0_3obj
+Elapsed Time: 0.8988220691680908 seconds
+Line Counts:
+  locations.csv: 40
+  routes.csv: 43
+  closures.csv: 1
+Total Lines: 84
+----------------------------------------
+Folder: ssudan_micro_test
+Elapsed Time: 0.8698718547821045 seconds
+Line Counts:
+  locations.csv: 62
+  routes.csv: 77
+  closures.csv: 1
+Total Lines: 140
+----------------------------------------
+Folder: bangladesh
+Elapsed Time: 0.8993139266967773 seconds
+Line Counts:
+  locations.csv: 31
+  routes.csv: 66
+  closures.csv: 1
+Total Lines: 98
+----------------------------------------
+Folder: small_test
+Elapsed Time: 0.9356958866119385 seconds
+Line Counts:
+  locations.csv: 0
+  routes.csv: 0
+  closures.csv: 0
+Total Lines: 0
+----------------------------------------
+Folder: flee_ssudan
+Elapsed Time: 0.8639099597930908 seconds
+Line Counts:
+  locations.csv: 52
+  routes.csv: 55
+  closures.csv: 1
+Total Lines: 108
+----------------------------------------
+Folder: burundi
+Elapsed Time: 0.8821167945861816 seconds
+Line Counts:
+  locations.csv: 31
+  routes.csv: 42
+  closures.csv: 3
+Total Lines: 76
+----------------------------------------
+Folder: ssudan_macro_test
+Elapsed Time: 0.920900821685791 seconds
+Line Counts:
+  locations.csv: 79
+  routes.csv: 99
+  closures.csv: 1
+Total Lines: 179
+----------------------------------------
+Folder: mali2012
+Elapsed Time: 0.8897829055786133 seconds
+Line Counts:
+  locations.csv: 24
+  routes.csv: 36
+  closures.csv: 3
+Total Lines: 63
+----------------------------------------
+Folder: ukraine2022_2024
+Elapsed Time: 0.8918530941009521 seconds
+Line Counts:
+  locations.csv: 38
+  routes.csv: 43
+  closures.csv: 2
+Total Lines: 83
+----------------------------------------
