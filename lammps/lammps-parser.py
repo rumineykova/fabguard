@@ -8,7 +8,7 @@ class CommandType(Enum):
     MASS = "mass"
     PAIR_STYLE = "pair_style"
     PAIR_COEFF = "pair_coeff"
-    # Add other commands as needed
+    # ... other
 
 @dataclass
 class Command:
@@ -18,7 +18,6 @@ class Command:
 
 class LAMMPSParser:
     def parse(self, content: str) -> List[Command]:
-        """Parse LAMMPS input file content into Command objects."""
         commands = []
         for i, line in enumerate(content.split('\n'), 1):
             line = line.strip()
@@ -37,7 +36,7 @@ class LAMMPSParser:
                     line_number=i
                 ))
             except ValueError:
-                # Unknown command type - could log warning here
+                # Unknown command
                 continue
                 
         return commands
@@ -102,7 +101,6 @@ class LAMMPSValidator:
         return errors
 
 def validate_lammps_file(content: str) -> List[str]:
-    """Main function to validate a LAMMPS input file."""
     parser = LAMMPSParser()
     validator = LAMMPSValidator()
     
